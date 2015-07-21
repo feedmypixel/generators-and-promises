@@ -1,0 +1,21 @@
+{
+  "name": "Asynchronous_flow_investigation",
+  "description": "A look into using Generators and Promises to create asynchronous flow",
+  "main": "app.js",
+  "scripts": {
+    "build-js": "mkdir -p public/assets/javascript | browserify -d assets/javascript/app.js -o public/assets/javascript/app.js",
+    "watch-js": "nodemon -e js -w assets/javascript -x 'npm run build-js'",
+    "watch": "npm run watch-js"
+  },
+  "author": "feedMyPixel",
+  "devDependencies": {
+    "babel": "^5.5.8",
+    "babel-core": "^5.7.4",
+    "babelify": "^6.1.3"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}

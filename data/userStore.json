@@ -1,0 +1,26 @@
+{
+  "user_1" : {
+    "name": "danny",
+    "age": "33",
+    "hairColour": "light-brown",
+    "eyeColour": "blue"
+  },
+  "user_2" : {
+    "name": "ben",
+    "age": "37",
+    "hairColour": "brown",
+    "eyeColour": "brown"
+  },
+  "user_3" : {
+    "name": "naomi",
+    "age": "35",
+    "hairColour": "dark-brown",
+    "eyeColour": "brown"
+  },
+  "user_4" : {
+    "name": "jon",
+    "age": "34",
+    "hairColour": "brown",
+    "eyeColour": "blue"
+  }
+}
