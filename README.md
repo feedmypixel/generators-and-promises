@@ -5,6 +5,7 @@ Using two requests, obtain the userId from the first and use it combined with th
 Readings for this investigation are from: 
  - [http://pag.forbeslindesay.co.uk](http://pag.forbeslindesay.co.uk)
  - [http://www.toptal.com/react/navigating-the-react-ecosystem](http://www.toptal.com/react/navigating-the-react-ecosystem)
+ - [http://davidwalsh.name/es6-generators](http://davidwalsh.name/es6-generators)
 
 ## Setup
 $ npm install
