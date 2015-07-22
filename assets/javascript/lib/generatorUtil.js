@@ -13,6 +13,8 @@ function process(generator) {
             return result.value.then(function (res) {
                 // Arguments passed to next() become the value returned by yield
                 return iterate(cursor.next(res));
+            }, function (err) {
+                return iterate(cursor.throw(err));
             });
         }
     }
